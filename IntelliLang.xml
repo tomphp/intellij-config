@@ -1,0 +1,12 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JSON" injector-id="java">
+      <display-name>JSON.singleMessage (io.tomoram.mailhog_client.helpers)</display-name>
+      <place><![CDATA[psiMethod().withName("singleMessage").withParameters().definedInClass("io.tomoram.mailhog_client.helpers.JSON")]]></place>
+    </injection>
+    <injection language="JSON" injector-id="java">
+      <display-name>ResponseDefinitionBuilder.withBody (com.github.tomakehurst.wiremock.client)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("withBody").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder"))]]></place>
+    </injection>
+  </component>
+</application>
