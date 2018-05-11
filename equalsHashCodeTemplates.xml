@@ -1,5 +1,17 @@
 <application>
   <component name="EqualsHashCodeTemplates">
-    <option name="defaultTempalteName" value="IntelliJ Default equals" />
+    <option name="defaultTempalteName" value="Reflection equals" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="Reflection equals" />
+          <option name="template" value="#parse(&quot;equalsHelper.vm&quot;)&#10;public boolean equals(##&#10;#if ($settings.generateFinalParameters)&#10;final ##&#10;#end&#10;Object $paramName){&#10;return org.apache.commons.lang3.builder.EqualsBuilder.reflectionEquals(this, $paramName);&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="Reflection hashCode" />
+          <option name="template" value="public int hashCode() {&#10;return org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(this);&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
   </component>
 </application>
