@@ -5,10 +5,4 @@
     <option name="GENERATE_FINAL_LOCALS" value="true" />
     <option name="GENERATE_FINAL_PARAMETERS" value="true" />
   </JavaCodeStyleSettings>
-  <codeStyleSettings language="Haskell">
-    <indentOptions>
-      <option name="INDENT_SIZE" value="4" />
-      <option name="TAB_SIZE" value="4" />
-    </indentOptions>
-  </codeStyleSettings>
 </code_scheme>
