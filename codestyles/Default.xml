@@ -4,7 +4,6 @@
   <option name="RIGHT_MARGIN" value="80" />
   <JavaCodeStyleSettings>
     <option name="GENERATE_FINAL_LOCALS" value="true" />
-    <option name="GENERATE_FINAL_PARAMETERS" value="true" />
   </JavaCodeStyleSettings>
   <codeStyleSettings language="JAVA">
     <indentOptions>
